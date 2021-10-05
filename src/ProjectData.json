@@ -1,0 +1,26 @@
+[
+    {
+        "projectName": "Eat Happier Dietitian Website",
+        "imagePath": "eathappy.png",
+        "description": "This is a website custom built for a private practice dietitian. It uses Next.js for the client and Strapi as a headless CMS for blog posts. I decided to use a headless CMS to save time on the development of the admin UI. Additionally, I built an integration to Gumroad which hosts and handles purchasing of PDF documents using their Open API.",
+        "technologies": [ "nextjs", "strapi", "node", "aws", "css"],
+        "githubRepoUrl": "https://github.com/poc967/lunchbox-rd-website",
+        "liveProjectRepo": "https://eathappierdietitian.com"
+    },
+    {
+        "projectName": "Instant Messenger",
+        "imagePath": "instant-messenger.png",
+        "description": "Basic instant messenger built with Socket.io for real-time chat updates and info on user online/offline status.",
+        "technologies": [ "mongo", "react", "node", "heroku", "redux", "socket", "express", "passport", "html", "styled-components"],
+        "githubRepoUrl": "https://github.com/poc967/instant-messenger",
+        "liveProjectRepo": "https://instant-messenger-backend.herokuapp.com"
+    },
+    {
+        "projectName": "Simple Blog",
+        "imagePath": "blog.png",
+        "description": "Basic instant messenger built with Socket.io for real-time chat updates and info on user online/offline status.",
+        "technologies": [ "mongo", "react", "node", "heroku", "redux", "express", "html", "css"],
+        "githubRepoUrl": "https://github.com/poc967/blog-app-client",
+        "liveProjectRepo": "https://enigmatic-springs-23614.herokuapp.com"
+    }
+]
