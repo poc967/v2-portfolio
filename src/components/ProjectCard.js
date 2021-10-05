@@ -21,6 +21,8 @@ import { SiHeroku as Heroku } from 'react-icons/si';
 import { TiHtml5 as Html } from 'react-icons/ti';
 import { SiCss3 as Css } from 'react-icons/si';
 import { SiStyledcomponents as StyledComponents } from 'react-icons/si';
+import { SiGumroad as GumRoad } from 'react-icons/si';
+import { SiNginx as NginX } from 'react-icons/si';
 
 class ProjectCard extends Component {
   render() {
@@ -197,6 +199,28 @@ class ProjectCard extends Component {
                         fontSize: '2rem',
                         padding: '1rem',
                         color: '#be5faa',
+                      }}
+                    />
+                  );
+                case 'gumroad':
+                  return (
+                    <GumRoad
+                      key={index}
+                      style={{
+                        fontSize: '2rem',
+                        padding: '1rem',
+                        color: '#ae3334',
+                      }}
+                    />
+                  );
+                case 'nginx':
+                  return (
+                    <NginX
+                      key={index}
+                      style={{
+                        fontSize: '2rem',
+                        padding: '1rem',
+                        color: '#009037',
                       }}
                     />
                   );

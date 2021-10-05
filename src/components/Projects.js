@@ -5,12 +5,17 @@ import projects from '../ProjectData.json';
 class Projects extends Component {
   render() {
     return (
-      <div className="projects-wrapper">
-        {projects.map((project, index) => (
-          <div key={index}>
-            <ProjectCard project={project} />
-          </div>
-        ))}
+      <div className="projects-main">
+        <div className="project-header">
+          <h1>What I've been working on...</h1>
+        </div>
+        <div className="projects-wrapper">
+          {projects.map((project, index) => (
+            <div key={index}>
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
