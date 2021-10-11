@@ -7,7 +7,7 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <div className="project-header">
-          <h1>What I've been working on...</h1>
+          <h1 id="projects">What I've been working on...</h1>
         </div>
         <div className="projects-wrapper">
           {projects.map((project, index) => (
