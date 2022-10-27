@@ -21,7 +21,7 @@ const Contact = () => {
         color="text.primary"
         sx={{ fontSize: '1.5rem', marginBottom: '1.5rem', fontWeight: '200' }}
       >
-        Check out me out on GitHub and LinkedIn, too
+        Check me out on GitHub and LinkedIn, too
       </Typography>
       <div className="contact-icon-wrapper">
         <Button href="https://www.linkedin.com/in/patrickoconnor3/">
